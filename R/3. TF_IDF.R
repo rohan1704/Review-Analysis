@@ -1,4 +1,4 @@
-load("data/2. Divide_Preprocess.RData")
+#load("data/2. Divide_Preprocess.RData")
 
 #===============================================
 # TF - IDF
@@ -107,5 +107,5 @@ names(train.token.df) = make.names(names(train.token.df))
 names(valid.token.df) = make.names(names(valid.token.df))
 
 # Save image file
-save.image("data/3. TF_IDF.RData")
+#save.image("data/3. TF_IDF.RData")
 

@@ -1,4 +1,4 @@
-load("data/5. Cosine_Sim_rf.cv.2.RData")
+#load("data/5. Cosine_Sim_rf.cv.2.RData")
 
 #===============================================
 # Preparing Test set for final prediction on 

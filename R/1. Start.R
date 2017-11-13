@@ -1,3 +1,5 @@
+setwd("G:/GIT/Review Analysis")
+
 # Libraries
 library(ggplot2) # Plotting
 library(e1071)
@@ -170,4 +172,4 @@ table(FullData$Polarity)
 write.csv(FullData,"results/2. Review_Data_Polarity.csv",row.names = FALSE)
 
 # Save image file
-save.image("data/1. Start.RData")
+#save.image("data/1. Start.RData")

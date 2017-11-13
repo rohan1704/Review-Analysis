@@ -1,4 +1,4 @@
-load("data/3. TF_IDF.RData")
+#load("data/3. TF_IDF.RData")
 
 #===============================================
 # SVD
@@ -108,5 +108,5 @@ confusionMatrix(valid.svd$Polarity,pred1,positive='Positive')
 # Sensitivity : 0.7956          
 # Specificity : 0.7440
 
-save.image("data/4. SVD_rf.cv.1.RData")
+#save.image("data/4. SVD_rf.cv.1.RData")
 

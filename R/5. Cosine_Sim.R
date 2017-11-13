@@ -1,4 +1,4 @@
-load("data/4. SVD_rf.cv.1.RData")
+#load("data/4. SVD_rf.cv.1.RData")
 
 #===============================================
 # COSINE SIMILARITY:
@@ -85,5 +85,5 @@ confusionMatrix(valid.svd$Polarity,pred2,positive='Positive')
 # Sensitivity : 0.8435          
 # Specificity : 0.7007
 
-save.image("data/5. Cosine_Sim_rf.cv.2.RData")
+#save.image("data/5. Cosine_Sim_rf.cv.2.RData")
 
