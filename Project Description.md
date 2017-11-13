@@ -6,11 +6,17 @@ Internet is full of unstructured textual data. Text analytics is the way to unlo
 ## 1. Data Collection
 The data for analysis has been collected from imdb.com website.
 The data is collected real time from these websites to have a real time ratings of the shows.
+
 [Arrow](http://www.imdb.com/title/tt2193021/)
+
 [The Flash](http://www.imdb.com/title/tt3107288/)
+
 [Constantine ](http://www.imdb.com/title/tt3489184/)
+
 [Lucifer ](http://www.imdb.com/title/tt4052886/)
+
 [Legends of Tomorrow ](http://www.imdb.com/title/tt4532368/)
+
 [Supergirl](http://www.imdb.com/title/tt4016454/)
 
 To gather data from these websites, web scraper was used and stored in csv format.
@@ -19,6 +25,9 @@ Considering that the users had given these reviews in the right frame of mind an
 with the following headings:
 
 "Show"		: Show's name
+
 "Date"		: Date of Review
+
 "Review"	: Actual textual description of review
+
 "Rating"	: User provided ratings.
